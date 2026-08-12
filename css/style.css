@@ -520,7 +520,7 @@ img {
   60% { transform: translateY(3px); }
 }
 
-/* Imagem home.png Transparente no Rodapé e à Direita */
+/* Imagem homeimg.png Transparente no Rodapé e à Direita */
 .hero-image-wrapper {
   position: absolute;
   bottom: 0;
