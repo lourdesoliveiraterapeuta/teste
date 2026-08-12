@@ -1309,9 +1309,9 @@ img {
 }
 
 .taccone-footer-img {
-  max-width: 1440px;
-  max-height: 640px;
-  width: 80%;
+  max-width: 400px;
+  max-height: 180px;
+  width: 100%;
   height: auto;
   object-fit: contain;
   display: block;
