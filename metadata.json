@@ -1,0 +1,6 @@
+{
+  "name": "Lourdes Oliveira Terapeuta",
+  "description": "Psicóloga especialista em Terapia Cognitivo-Comportamental (TCC) no Rio de Janeiro (CRP 05/85187). Atendimento online e presencial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
