@@ -439,25 +439,25 @@ img {
   justify-content: center;
   z-index: 2;
   position: relative;
-  transform: translateY(-70px);
+  transform: translate(120px, -70px);
 }
 
 .hero-logo {
-  width: 150px;
-  height: 150px;
+  width: 121px;
+  height: 121px;
   object-fit: contain;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.0rem;
   display: block;
 }
 
 .hero-slogan {
   font-family: var(--font-heading);
-  font-size: clamp(4.32rem, 9vw, 7.44rem);
+  font-size: clamp(3.49rem, 7.29vw, 6.03rem);
   font-weight: 700;
   font-style: italic;
   color: var(--color-verde);
   line-height: 1.15;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.21rem;
   letter-spacing: -0.02em;
 }
 
@@ -471,11 +471,11 @@ img {
 }
 
 .hero-cta-btn {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  font-size: 0.77rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 0.9rem 2.25rem;
+  padding: 0.73rem 1.82rem;
   pointer-events: auto;
   cursor: pointer;
   margin-left: 0;
@@ -486,8 +486,8 @@ img {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 1.5rem;
-  left: 1.5rem;
+  bottom: 1.21rem;
+  left: calc(1.21rem + 120px);
   z-index: 30;
   color: var(--color-verde);
   text-decoration: none;
@@ -496,7 +496,7 @@ img {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: none;
-  padding: 0.5rem;
+  padding: 0.4rem;
   border-radius: 50%;
   box-shadow: none;
   pointer-events: none !important;
@@ -509,8 +509,8 @@ img {
 }
 
 .scroll-down-icon {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   animation: bounceDown 2.5s ease-in-out infinite;
 }
 
@@ -531,7 +531,7 @@ img {
   justify-content: flex-end;
   pointer-events: none;
   width: 50vw;
-  height: 100%;
+  height: 100vh;
 }
 
 .hero-transparent-img {
@@ -1250,6 +1250,7 @@ img {
   width: 26px;
   height: 26px;
   fill: currentColor;
+  flex-shrink: 0;
 }
 
 /* --- BACK TO TOP BUTTON (DO LADO ESQUERDO) --- */
@@ -1309,9 +1310,8 @@ img {
 }
 
 .taccone-footer-img {
-  max-width: 400px;
-  max-height: 180px;
-  width: 100%;
+  width: 92%;
+  max-width: 580px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -1398,7 +1398,7 @@ img {
   }
 
   .hero-logo {
-    width: 85px;
+    width: 86px;
     height: auto;
     margin-top: 0;
     margin-bottom: 10px;
@@ -1406,7 +1406,7 @@ img {
   }
 
   .hero-slogan {
-    font-size: clamp(3.15rem, 10.8vw, 4.8rem);
+    font-size: clamp(3.22rem, 11vw, 4.9rem);
     line-height: 1.1;
     margin-top: 0;
     margin-bottom: 10px;
@@ -1420,8 +1420,8 @@ img {
   .hero-cta-btn {
     width: auto;
     max-width: 100%;
-    font-size: 0.88rem;
-    padding: 0.7rem 1.35rem;
+    font-size: 0.9rem;
+    padding: 0.72rem 1.38rem;
     align-self: flex-start;
     margin-top: 0;
     margin-bottom: 10px;
@@ -1437,8 +1437,8 @@ img {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 1.25rem;
-    left: 1.5rem;
+    bottom: 1.27rem;
+    left: 1.52rem;
     transform: none;
     z-index: 30;
     color: var(--color-verde);
@@ -1534,11 +1534,10 @@ img {
   }
 
   .taccone-footer-img {
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100% !important;
+    max-width: 630px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .intro-content {
@@ -1603,13 +1602,13 @@ img {
   }
 
   .hero-logo {
-    width: 65px;
+    width: 66px;
     height: auto;
     margin-bottom: 0.5rem;
   }
 
   .hero-slogan {
-    font-size: clamp(2.1rem, 5.5vw, 3.4rem);
+    font-size: clamp(2.14rem, 5.6vw, 3.47rem);
     line-height: 1.1;
     margin-bottom: 0.75rem;
     text-align: left;
@@ -1621,8 +1620,8 @@ img {
 
   .hero-cta-btn {
     width: auto;
-    font-size: 0.82rem;
-    padding: 0.6rem 1.2rem;
+    font-size: 0.84rem;
+    padding: 0.61rem 1.22rem;
     align-self: flex-start;
   }
 
@@ -1709,9 +1708,9 @@ img {
   }
 
   .taccone-footer-img {
-    width: 80%;
-    max-width: 750px;
-    max-height: 50vh;
+    width: 92%;
+    max-width: 580px;
+    height: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -1795,13 +1794,15 @@ img {
   }
 
   .whatsapp-float {
-    padding: 0.85rem;
+    padding: 0;
     border-radius: 50%;
     bottom: 20px;
     right: 18px;
     left: auto;
     width: 52px;
     height: 52px;
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
 
@@ -2123,8 +2124,7 @@ body.site-loaded .scroll-down-indicator {
 
 /* Garante que ícones importantes não desapareçam */
 .back-to-top svg,
-.whatsapp-float-icon,
-.intro-logo {
+.whatsapp-float-icon {
   opacity: 1 !important;
   animation: none !important;
 }
